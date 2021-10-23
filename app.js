@@ -2,15 +2,6 @@ let myLibrary = [];
 const table = document.querySelector('table');
 const form = document.querySelector('#form');
 
-/*
-myLibrary.push(new Book("Hobbit", "Tolkien", 500, false, 4))
-myLibrary.push(new Book("Sandworm", "Unknown", 300, true, 4))
-myLibrary.push(new Book("Hobbit2", "Tolkien", 500, false, 4))
-myLibrary.push(new Book("Sandworm2", "Unknown", 300, true, 5))
-myLibrary.push(new Book("Hobbit3", "Tolkien", 500, false, 6))
-myLibrary.push(new Book("Sandworm3", "Unknown", 300, true, 3))
-*/
-
 //book constructor
 function Book(title, author, pages, read) {
     this.title = title;
