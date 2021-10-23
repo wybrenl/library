@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sidebar">
+        <form id="form">
+            <div class="formheader">My library</div>
+            <ul>
+                <li>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title">
+                </li>
+                <li>
+                    <label for="auhtor">Author:</label>
+                    <input type="text" id="author" name="author">
+                </li>
+                <li>
+                    <label for="pages"># of pages:</label>
+                    <input type="number" id="pages" name="pages">
+                </li>
+                <li>
+                    <input type="checkbox" id="read" name="read" value="Read"> 
+                    <label for="read" id="readlabel">I have read this book</label>
+                </li>
+                <li>
+                    <button id="newBook" type="submit">Add book to library</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div id="main">
+        <div class='container'>
+            <table class="table">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                    <th>Remove from library</th>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">© Henkie B productions</div>
+    </div>
+   
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
