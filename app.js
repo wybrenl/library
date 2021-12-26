@@ -2,13 +2,14 @@ let myLibrary = [];
 const table = document.querySelector('table');
 const form = document.querySelector('#form');
 
-//book constructor
-function Book(title, author, pages, read) {
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.read = read;
-    };
+class Book {
+    constructor(title, author, pages, read) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
+    }
+}
 
 //retrieves elements from form, add to the library and updates the table with new book
 form.addEventListener('submit', (event) => {
